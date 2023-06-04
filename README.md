@@ -1,7 +1,7 @@
 # Breaking-Out
 Just a minimalistic Breakout game made with Unity in C#.
 
-![alt text](https://github.com/1ly422/Breaking-Out/blob/main/screenshot.jpg?raw=true)
+![alt text](https://github.com/1ly422/Breaking-Out/blob/main/screenshot.png?raw=true)
 
 TODO::
 -	Add different color themes.

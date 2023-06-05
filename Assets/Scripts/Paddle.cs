@@ -40,6 +40,11 @@ public class Paddle : MonoBehaviour
         }
     }
 
+    public void Reset()
+    {
+        this.transform.position = new Vector2(0f, this.transform.position.y);
+        this.rigidbody.velocity = Vector2.zero;
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Ball ball = collision.gameObject.GetComponent<Ball>();

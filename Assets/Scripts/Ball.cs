@@ -15,6 +15,13 @@ public class Ball : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Reset();
+    }
+
+    public void Reset()
+    {
+        this.transform.position = new Vector3(0f, -2f);
+        this.rigidbody.velocity = Vector3.zero;
         Invoke(nameof(SetRandomTrajectory), 1f);
     }
 
